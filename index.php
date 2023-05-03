@@ -10,8 +10,8 @@
 
 <body>
     <form action="greeting.php" method="GET">
-        <label for="testo">Inserisci un testo (ciao sono ..)</label>
-        <input type="text" id="testo" name="testo">
+        <label for="testo">Inserisci un testo</label>
+        <input type="text" id="testo" name="testo" placeholder="Ciao sono..">
 
         <button type="submit">Confronta se le tue parole sono valide</button>
     </form>

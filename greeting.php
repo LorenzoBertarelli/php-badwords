@@ -1,5 +1,6 @@
 <?php
     $name = $_GET["testo"];
+    $parola_censurata = $_GET["censura"];
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +13,7 @@
 </head>
 <body>
     <h2><?php echo $name ?></h2>
-    <h2><?php $name_replace = str_replace('sono', '***', $name); 
+    <h2><?php $name_replace = str_replace($parola_censurata, '***', $name); 
         echo $name_replace ?>
     </h2>
 </body>

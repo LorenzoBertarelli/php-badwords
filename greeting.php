@@ -1,5 +1,5 @@
 <?php
-    $frase = $_GET["testo"];
+    $name = $_GET["testo"];
     $parola_censurata = $_GET["censura"];
 ?>
 
@@ -14,7 +14,7 @@
 <body>
     <h2><?php echo $name ?></h2>
     <h2><?php $name_replace = str_replace($parola_censurata, '***', $name); 
-        echo $name_replace ?>
+        echo $name_replace; ?>
     </h2>
 </body>
 </html>

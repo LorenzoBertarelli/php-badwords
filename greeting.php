@@ -1,5 +1,5 @@
 <?php
-    $name = $_GET["testo"];
+    $frase = $_GET["testo"];
     $parola_censurata = $_GET["censura"];
 ?>
 

@@ -11,7 +11,7 @@
 <body>
     <form action="greeting.php" method="GET">
         <label for="testo">Inserisci un testo</label>
-        <input type="text" id="testo" name="testo" placeholder="Ciao sono..">
+        <input type="text" id="testo" frase="testo" placeholder="Ciao sono..">
         <br>
         <br>
         <label for="censura">Inserisci parola da censurare</label>

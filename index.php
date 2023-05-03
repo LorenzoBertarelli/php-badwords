@@ -9,8 +9,6 @@
 </head>
 
 <body>
-    <form action=""></form>
-
     <form action="greeting.php" method="GET">
         <label for="testo">Inserisci un testo (ciao sono ..)</label>
         <input type="text" id="testo" name="testo">

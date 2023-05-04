@@ -13,6 +13,7 @@
 </head>
 <body>
     <h2><?php echo $name ?></h2>
+    <p>La lunghezza del testo è di <?php echo strlen($name) ?> caratteri.</p>
     <h2><?php $name_replace = str_replace($parola_censurata, '***', $name); 
         echo $name_replace; ?>
     </h2>
